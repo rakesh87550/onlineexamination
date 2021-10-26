@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(48, 48, 48);
+}
+.brand{
+    margin-left:3em;
+}
+.user{
+    margin-right:3em;
+    color:white;
+}
+.list{
+    font-size:22px;
+   padding-left:12px;
+}
+.main{
+    color:white;
+} 
+footer{
+	color:#000;
+}
+footer a{
+	color: rgb(200, 200, 255);
+}
+footer a:hover{
+	color: rgb(87, 87, 206);
+	text-decoration: none;
+} 
