@@ -22,11 +22,13 @@
         {
             $inquery = "INSERT INTO category(cat_name,date,teacher) VALUES('$cat_name','$date','$teacher')";
             $res = mysqli_query($conn, $inquery);
-            if($obj->signup($res))
-            {
-                {
-                    $obj->url("category.php?run=success"); //correctly store value to database
-                }
-            }
+            header("location: category.php");
+            // if($obj->signup($res))
+            // {
+            //     {
+            //         $obj->url("category.php?run=success"); //correctly store value to database
+                    
+            //     }
+            // }
         }
     ?>
